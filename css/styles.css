@@ -15,5 +15,37 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 :root {
-    
+    /*Font*/
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /*Text colors*/
+    --main-txt-clr: #212121;    
+    --blue-link-cl: #2196F3;
+    --logo-link-cl: #000000;
+    /*Background colors*/
+    --accent-bg-cl: #FFFFFF;
+    --secondary-bg-cl: #2F303A;
+        /*Others*/
+}
+
+.page {
+font-family: var(--main-font);
+font-size: 14px;
+line-height: calc(24/14);
+color: var(--main-txt-clr);
+background-color: var(--accent-bg-cl);
+}
+
+
+/*Header*/
+.logo-link {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);    
+    letter-spacing: 0.03em;
+    color: var(--logo-link-cl);
+}
+.logo-link>.accent{
+    color: var(--blue-link-cl);
 }
