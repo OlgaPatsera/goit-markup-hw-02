@@ -153,6 +153,7 @@ color: var(--contacts-ftr-cl-60);
     font-weight: 700;
     line-height: calc(16/14);
     text-transform: uppercase;
+    font-size: 14px;
 }
 .feature-item {
     list-style: none;
